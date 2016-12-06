@@ -1,0 +1,177 @@
+﻿/* CSS Document */
+
+#waiting {
+	display: none;
+	position: fixed;
+	background: url(../images/bg_waiting_01.png);
+	left: 0;
+	top: 0;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+
+/*-----------------------------------
+
+	japanese enquery form
+
+-----------------------------------*/
+#form_ja {
+	position: relative;
+}
+#form_ja .req-base {
+	position: relative;
+}
+@media (min-width: 768px) {
+	#form_ja .req-base {
+		padding-left: 0;
+		/*padding-right: 10px;*/
+	}
+}
+#form_ja #error1,
+#form_ja #error2,
+#form_ja #error3 {
+	display: none;
+	font-size: 10px;
+	color: #D15E52;
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	font-size: 12px;
+}
+#form_ja .require {
+	font-size: 13px;
+}
+@media (min-width: 768px) {
+	#form_ja .require {
+		/*padding-left: 10px;*/
+		padding-right: 10px;
+	}
+}
+#form_ja .require span {
+	color: #D15E52;
+	font-weight: bold;
+	font-size: 16px;
+}
+#form_ja .button {
+	/*float: left;*/
+	background: url(../images/bg_enquire_btn_01.png) left top no-repeat;
+	width: 196px;
+	height: 44px;
+	margin-top: 5px;
+}
+#form_ja .button a {
+	display: block;
+	width: 190px;
+	height: 35px;
+	padding: 9px 0 0 40px;
+	font-size: 16px;
+	color: #503216;
+}
+#form_ja .button a:hover {
+	color: #503216;
+}
+
+#thankyou_ja {
+	margin: 30px 0 0;
+}
+#thankyou_ja .thankyoutitle {
+	font-size: 34px;
+	color: #f3ab00;
+	margin: 0 0 15px;
+}
+#thankyou_ja .thankyoucont {
+	line-height: 1.5;
+}
+#thankyou_ja .tel {
+	background: url(../images/bg_freetrial_tel_01.png) left top no-repeat;
+	height: 42px;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 14px 0 0 50px;
+	margin: 20px 0 0;
+	display: inline-block;
+}
+
+/*-----------------------------------
+
+	english enquery form
+
+-----------------------------------*/
+#form_en {
+	position: relative;
+}
+#form_en .req-base {
+	position: relative;
+}
+@media (min-width: 768px) {
+	#form_en .req-base {
+		padding-left: 0;
+		/*padding-right: 10px;*/
+	}
+}
+#form_en #error1,
+#form_en #error2,
+#form_en #error3 {
+	display: none;
+	font-size: 10px;
+	color: #D15E52;
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	font-size: 12px;
+}
+#form_en .require {
+	font-size: 13px;
+}
+@media (min-width: 768px) {
+	#form_en .require {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+#form_en .require span {
+	color: #D15E52;
+	font-weight: bold;
+	font-size: 16px;
+}
+#form_en .button {
+	/*float: left;*/
+	background: url(../images/bg_enquire_btn_01.png) left top no-repeat;
+	width: 196px;
+	height: 44px;
+	margin-top: 5px;
+}
+#form_en .button a {
+	display: block;
+	width: 190px;
+	height: 34px;
+	padding: 10px 0 0 35px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #503216;
+}
+#form_en .button a:hover {
+	color: #503216;
+}
+
+#thankyou_en {
+	margin: 30px 0 0;
+}
+#thankyou_en .thankyoutitle {
+	font-size: 34px;
+	color: #f3ab00;
+	margin: 0 0 15px;
+}
+#thankyou_en .thankyoucont {
+	line-height: 1.5;
+}
+#thankyou_en .tel {
+	background: url(../images/bg_freetrial_tel_01.png) left top no-repeat;
+	height: 42px;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 14px 10px 0 50px;
+	margin: 20px 0 0;
+	display: inline-block;
+}
